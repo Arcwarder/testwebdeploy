@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
+
+*{
+    /* color: black; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#head{
+    color: white;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+p{
+    font-family: "Exo 2", sans-serif;
+    font-size: larger;
+}

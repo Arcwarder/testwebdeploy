@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
+
+*{
+    /* color: black; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    /* background: url(./assets/img/ssdfsdfmaxresdefault.jpg); */
+    background: black;
+    /* background: white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.credit a{
+    filter: brightness(50%);
+    font-family: "Exo 2", sans-serif;
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+    border-style:  solid;
+    border-width: 1px 1px;
+    padding: 4px;
+    /* margin: 10px; */
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+
+.credit a:hover{
+    transition: 1s;
+    filter: brightness(100%);
+}
+
+.box{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px;
+}
+
+.box a{
+    font-family: "Exo 2", sans-serif;
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+    border-style:  solid;
+    border-width: 1px 1px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.box a:hover{
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.box h5{
+    font-family: "Exo 2", sans-serif;
+}
+
+.box h1{
+    font-family: "Exo 2", sans-serif;
+    font-size: 10dvw;
+}
+
+.box h1{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+#discordtag{
+    font-family: "Exo 2", sans-serif;
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+}
+
+#discordtag:hover{
+    transition: 0.5s;
+    /* color: black; */
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+}

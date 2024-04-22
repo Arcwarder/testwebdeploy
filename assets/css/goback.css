@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
+
+.exit{
+    /* position: sticky; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    border-style:  solid;
+    border-width: 3px 3px;
+    padding: 4px;
+    /* margin-right: 0;
+    margin-left:auto;
+    display:block;   */
+    float: right;
+}
+
+.exit:hover{
+    color: black;
+    background: white;
+}

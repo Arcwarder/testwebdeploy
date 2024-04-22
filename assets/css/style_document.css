@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
+
+*{
+    /* color: black; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#Tum{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+}
+
+.container{
+    padding-top: 1rem;
+}
+
+.skill li{
+    margin-top: 4px;
+}
+
+.border{
+    display: flex;
+    width: 200px;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+.border p{
+    margin: 0;
+    margin-left: 2px;
+}
+
+.progres-bar{
+    background: greenyellow;
+}
+
+h2{
+    font-family: "Exo 2", sans-serif;
+}

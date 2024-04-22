@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jersey+10&display=swap');
+
+*{
+    /* color: black; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px;  
+}
+
+.menu h1{
+    margin-bottom: 3dvw;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 4rem;
+}
+
+/* .list{
+    text-align: center;
+    border-style:  solid;
+    border-width: 1px 1px;
+    text-align: center;
+    display: flex;
+}
+
+.list p{
+    font-size: large;
+    height: 1rem;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 100px;
+} */
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.button a{
+    margin-top: 1dvw;
+    font-family: "Exo 2", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    border-style:  solid;
+    border-width: 1px 1px;
+    padding: 20px;
+    width: 200px;
+}
