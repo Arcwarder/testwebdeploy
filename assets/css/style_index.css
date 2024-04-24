@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /* transition: 1s; */
 }
 
 body{
@@ -34,6 +35,11 @@ body{
 .credit a:hover{
     transition: 1s;
     filter: brightness(100%);
+}
+
+.arc img:hover{
+    transition: 0.5s;
+    transform: rotate(5deg);
 }
 
 .box{

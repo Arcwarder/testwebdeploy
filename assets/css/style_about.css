@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    transition: 1s;
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 }
 
 .menu{
-    width: 50%;
+    width: 70%;
 }
 
 .menu p{
@@ -29,9 +30,16 @@ h1{
     font-size: 1.5rem;
 }
 
-img{
+.iconic img{
     position: absolute;
-    /* float: right; */
+    float: right;
     right: 0;
     bottom: 0;
+}
+
+.iconic p{
+    position: absolute;
+    right: 0;
+    bottom: 250px;
+    width: 10rem;
 }

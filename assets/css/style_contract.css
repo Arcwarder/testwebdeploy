@@ -43,14 +43,23 @@
     border-radius: 100px;
 } */
 
-.button{
+.hide{
+    display: none;
+}
+
+.mini-butt{
     display: flex;
-    flex-direction: column;
     margin: 0 auto;
     width: 200px;
 }
 
-.button a{
+.mini-butt img{
+    width: 3rem;
+    height: 2rem;
+}
+
+.mini-butt a{
+    transition: 0.5s;
     margin-top: 1dvw;
     font-family: "Exo 2", sans-serif;
     font-size: larger;
@@ -59,4 +68,15 @@
     border-width: 1px 1px;
     padding: 20px;
     width: 200px;
+}
+
+.mini-butt a:hover{ 
+    display: block;
+    padding: 30px;
+    background: linear-gradient(to right, #ff0400, #ff0055, #8b0000, #7d0e0e, #ff0080, #ffc505, #ffb300, #d45c00, #ff3c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    .hide{
+        display: block;
+    }
 }
