@@ -37,6 +37,22 @@ body{
     filter: brightness(100%);
 }
 
+.left-arc,
+.right-arc{
+    opacity: 0;
+}
+
+.middle-arc:hover + .right-arc{
+    opacity: 1;
+}
+.middle-arc:hover + .left-arc{
+    opacity: 1;
+}
+
+.arc img{
+    transition: 0.5s;
+}
+
 .arc img:hover{
     transition: 0.5s;
     transform: rotate(5deg);
@@ -59,12 +75,12 @@ body{
     border-style:  solid;
     border-width: 1px 1px;
     padding: 12px;
-    font-weight: bold;
 }
 
 .box a:hover{
     transition: 0.3s;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .box h5{

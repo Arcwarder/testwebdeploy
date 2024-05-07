@@ -13,7 +13,7 @@
 h1{
     text-align: center;
     font-family: "Jersey 10", sans-serif;
-    font-size: 4rem;
+    font-size:calc(24px + 2vw);
     margin-bottom: 3dvw;
 }
 
@@ -27,7 +27,7 @@ h1{
 
 .menu p{
     font-family: "Exo 2", sans-serif;
-    font-size: 1.5rem;
+    font-size:calc(10px + 1vw);    
 }
 
 .iconic img{

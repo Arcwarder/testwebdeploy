@@ -1,0 +1,44 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 750px;
+}
+
+ul:nth-child(3) ,ul:nth-child(2){
+    margin-top: 100px;
+}
+
+li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+li a:hover{
+    transform: rotate(5deg);
+    font-size: 50px;
+    /* color: #01FFF4;
+    box-shadow: 0 0 40px #01FFF4; */
+}
+
+h1{
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
