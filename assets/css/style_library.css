@@ -9,16 +9,16 @@
     text-decoration: none;
 }
 
-#head{
-    color: white;
-    text-align: center;
+#Library{
+    margin-left: 20px;
     font-family: "Jersey 10", sans-serif;
-    margin: 0 auto;
-    max-width: 1000px;
-    font-size: calc(24px + 1vw);
+    font-size: calc(20px + 1vw);
 }
 
-p{
-    font-family: "Exo 2", sans-serif;
-    font-size: larger;
+#list-tab{
+    border-radius: 0;
+}
+
+a{
+    font-size: 1vws ;
 }
